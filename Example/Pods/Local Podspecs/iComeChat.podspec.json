@@ -1,0 +1,22 @@
+{
+  "name": "iComeChat",
+  "version": "0.1.0",
+  "summary": "A short description of iComeChat.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangrongwu/iComeChat",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangrongwu": "zhangrongwuios@sinn.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangrongwu/iComeChat.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "iComeChat/Classes/**/*"
+}

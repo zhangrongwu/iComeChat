@@ -1,0 +1,6 @@
+framework module iComeChat {
+  umbrella header "iComeChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

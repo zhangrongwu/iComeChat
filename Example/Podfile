@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iComeChat_Example' do
+  pod 'iComeChat', :path => '../'
+
+  target 'iComeChat_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

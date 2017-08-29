@@ -1,0 +1,16 @@
+PODS:
+  - iComeChat (0.1.0)
+
+DEPENDENCIES:
+  - iComeChat (from `../`)
+
+EXTERNAL SOURCES:
+  iComeChat:
+    :path: ../
+
+SPEC CHECKSUMS:
+  iComeChat: fd925a8a40df95ea2b731edf32d1f5ed10af4463
+
+PODFILE CHECKSUM: 591bac3d398223d27da66a65043349318397b882
+
+COCOAPODS: 1.3.1

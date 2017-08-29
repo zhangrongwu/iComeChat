@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13DC73427FE1A90C8ADB38765A01CD5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2541662502FA42E6A46D2727D100EA6C /* Pods-iComeChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C0BF338972C5971FC59F12247A80B0 /* Pods-iComeChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F1C17600D9C368EDBF61648984100A4 /* iComeChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C28F7ABA8F8B04F640790E4A258CF1A /* iComeChat-dummy.m */; };
+		64ABA4AB0D771C3AAEB74A11F55BA057 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F300734EAC1046AD34FDC1D4914985F /* ReplaceMe.m */; };
+		83E2457E393439C619A0F735296741B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AAF258BBDE7F6BFDB2FCCE28A766E329 /* Pods-iComeChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A809C4259286195A69FC19E56680F7 /* Pods-iComeChat_Example-dummy.m */; };
+		BBBFD6331FCDBF1490434047EF9D36F1 /* Pods-iComeChat_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 558BD362DBCA8ECFB5E2B772E7F518F0 /* Pods-iComeChat_Tests-dummy.m */; };
+		E3EADC89619A8633A402872161246C60 /* iComeChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2698E89B77CE55C62E0B068B03035A /* iComeChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E45A8DDB97B9C4A6A9FCDB3B35113F34 /* Pods-iComeChat_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C74A35C8EBEBA4C88BC2C6A793C0522 /* Pods-iComeChat_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED71807BF3525E627E84619C4A41B6D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5842C88600307A99145361095AA6683A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B7428B0AACA0099919291BF2C099DBB;
+			remoteInfo = iComeChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C28F7ABA8F8B04F640790E4A258CF1A /* iComeChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iComeChat-dummy.m"; sourceTree = "<group>"; };
+		0CC6A688AAFD34687DEC0ABDD2D63651 /* Pods-iComeChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iComeChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		12784F653C8856D40162A1B8D6C3F1A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E01F9F1FCC0805F2711612B7AC5592 /* Pods-iComeChat_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iComeChat_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		26C8D309D1C5EE31ADCFC1180B3C1270 /* Pods-iComeChat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iComeChat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DA2699E5375DCB044ED8D60FB7B3D4B /* Pods-iComeChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iComeChat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		481A3EA596A291C241EB38EE18EAC62B /* Pods_iComeChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iComeChat_Example.framework; path = "Pods-iComeChat_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D7C3661975582E53B8D24449DD83A70 /* Pods-iComeChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iComeChat_Example.modulemap"; sourceTree = "<group>"; };
+		558BD362DBCA8ECFB5E2B772E7F518F0 /* Pods-iComeChat_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iComeChat_Tests-dummy.m"; sourceTree = "<group>"; };
+		57C0BF338972C5971FC59F12247A80B0 /* Pods-iComeChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iComeChat_Example-umbrella.h"; sourceTree = "<group>"; };
+		5F34D5DD7CD6E532D6E258B2C9C5CAAF /* Pods-iComeChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iComeChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CAA83675CE973833438851EDECE2D63 /* iComeChat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iComeChat.xcconfig; sourceTree = "<group>"; };
+		72C2445D5D76C0D88F119FDFA433DBA7 /* Pods-iComeChat_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iComeChat_Tests.modulemap"; sourceTree = "<group>"; };
+		7862521AC10C0596DF65D50990812DCB /* iComeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iComeChat.framework; path = iComeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CCDA9D7312831DCA4EC19A292BE203 /* Pods-iComeChat_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iComeChat_Example-resources.sh"; sourceTree = "<group>"; };
+		819E95C587B83AA9EB2644CCEF9EDA13 /* Pods-iComeChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iComeChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99A809C4259286195A69FC19E56680F7 /* Pods-iComeChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iComeChat_Example-dummy.m"; sourceTree = "<group>"; };
+		9C74A35C8EBEBA4C88BC2C6A793C0522 /* Pods-iComeChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iComeChat_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F300734EAC1046AD34FDC1D4914985F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = iComeChat/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A08BC0D3D922D9C9097CC63143225D2F /* Pods-iComeChat_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iComeChat_Tests-resources.sh"; sourceTree = "<group>"; };
+		A35AE590C2FE16E1279797908E13A38A /* Pods-iComeChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iComeChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5424046CD3683D32786EDDC462BAC41 /* Pods-iComeChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iComeChat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A83A193D76C038AA23F8079F1A2ACCF9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8783D50886FF7D5761A30F6EAE9CEA0 /* Pods_iComeChat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iComeChat_Tests.framework; path = "Pods-iComeChat_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B857371FBBF7D5A3FFFFCF5DDC860AD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7DE552B69FE44E543AFBC914894E891 /* iComeChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iComeChat.modulemap; sourceTree = "<group>"; };
+		C97AC46C2370E709CB1269D6BBB83906 /* iComeChat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iComeChat-prefix.pch"; sourceTree = "<group>"; };
+		DA9BBED3162A70A6B123AEFFE9A017DF /* Pods-iComeChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iComeChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DD2698E89B77CE55C62E0B068B03035A /* iComeChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iComeChat-umbrella.h"; sourceTree = "<group>"; };
+		F8C712DA5DC893831A34A2CDA2A63FB8 /* Pods-iComeChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iComeChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		027902B0DB9E4F0B4074FA5E81884EF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E2457E393439C619A0F735296741B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5EC85C33EEF4E3CB3271D30908A899A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DC73427FE1A90C8ADB38765A01CD5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACE35356324823B786F2C4989635F108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED71807BF3525E627E84619C4A41B6D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D7FDA9F6C7D9B49203B4A378A4131B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88E196742873C50AE2E1EED9EF293A18 /* iComeChat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1D7FDA9F6C7D9B49203B4A378A4131B1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9DE2DC516C08C94DDB76ECE7EAFB2B38 /* Products */,
+				C7632155E232A08B308FFE0285D75EB8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		88BFE14BA906AA8ADDD5F5DCAC2E3F3D /* Pods-iComeChat_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A83A193D76C038AA23F8079F1A2ACCF9 /* Info.plist */,
+				72C2445D5D76C0D88F119FDFA433DBA7 /* Pods-iComeChat_Tests.modulemap */,
+				5F34D5DD7CD6E532D6E258B2C9C5CAAF /* Pods-iComeChat_Tests-acknowledgements.markdown */,
+				26C8D309D1C5EE31ADCFC1180B3C1270 /* Pods-iComeChat_Tests-acknowledgements.plist */,
+				558BD362DBCA8ECFB5E2B772E7F518F0 /* Pods-iComeChat_Tests-dummy.m */,
+				14E01F9F1FCC0805F2711612B7AC5592 /* Pods-iComeChat_Tests-frameworks.sh */,
+				A08BC0D3D922D9C9097CC63143225D2F /* Pods-iComeChat_Tests-resources.sh */,
+				9C74A35C8EBEBA4C88BC2C6A793C0522 /* Pods-iComeChat_Tests-umbrella.h */,
+				A35AE590C2FE16E1279797908E13A38A /* Pods-iComeChat_Tests.debug.xcconfig */,
+				DA9BBED3162A70A6B123AEFFE9A017DF /* Pods-iComeChat_Tests.release.xcconfig */,
+			);
+			name = "Pods-iComeChat_Tests";
+			path = "Target Support Files/Pods-iComeChat_Tests";
+			sourceTree = "<group>";
+		};
+		88E196742873C50AE2E1EED9EF293A18 /* iComeChat */ = {
+			isa = PBXGroup;
+			children = (
+				9F300734EAC1046AD34FDC1D4914985F /* ReplaceMe.m */,
+				E27810C589817329FDA0C580AC9672E4 /* Support Files */,
+			);
+			name = iComeChat;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9BD569668E02DA460FBE28380810F2B1 /* Pods-iComeChat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				12784F653C8856D40162A1B8D6C3F1A0 /* Info.plist */,
+				4D7C3661975582E53B8D24449DD83A70 /* Pods-iComeChat_Example.modulemap */,
+				F8C712DA5DC893831A34A2CDA2A63FB8 /* Pods-iComeChat_Example-acknowledgements.markdown */,
+				0CC6A688AAFD34687DEC0ABDD2D63651 /* Pods-iComeChat_Example-acknowledgements.plist */,
+				99A809C4259286195A69FC19E56680F7 /* Pods-iComeChat_Example-dummy.m */,
+				A5424046CD3683D32786EDDC462BAC41 /* Pods-iComeChat_Example-frameworks.sh */,
+				78CCDA9D7312831DCA4EC19A292BE203 /* Pods-iComeChat_Example-resources.sh */,
+				57C0BF338972C5971FC59F12247A80B0 /* Pods-iComeChat_Example-umbrella.h */,
+				819E95C587B83AA9EB2644CCEF9EDA13 /* Pods-iComeChat_Example.debug.xcconfig */,
+				2DA2699E5375DCB044ED8D60FB7B3D4B /* Pods-iComeChat_Example.release.xcconfig */,
+			);
+			name = "Pods-iComeChat_Example";
+			path = "Target Support Files/Pods-iComeChat_Example";
+			sourceTree = "<group>";
+		};
+		9DE2DC516C08C94DDB76ECE7EAFB2B38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7862521AC10C0596DF65D50990812DCB /* iComeChat.framework */,
+				481A3EA596A291C241EB38EE18EAC62B /* Pods_iComeChat_Example.framework */,
+				A8783D50886FF7D5761A30F6EAE9CEA0 /* Pods_iComeChat_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7632155E232A08B308FFE0285D75EB8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BD569668E02DA460FBE28380810F2B1 /* Pods-iComeChat_Example */,
+				88BFE14BA906AA8ADDD5F5DCAC2E3F3D /* Pods-iComeChat_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E27810C589817329FDA0C580AC9672E4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7DE552B69FE44E543AFBC914894E891 /* iComeChat.modulemap */,
+				6CAA83675CE973833438851EDECE2D63 /* iComeChat.xcconfig */,
+				0C28F7ABA8F8B04F640790E4A258CF1A /* iComeChat-dummy.m */,
+				C97AC46C2370E709CB1269D6BBB83906 /* iComeChat-prefix.pch */,
+				DD2698E89B77CE55C62E0B068B03035A /* iComeChat-umbrella.h */,
+				B857371FBBF7D5A3FFFFCF5DDC860AD0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iComeChat";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		663133904F9E01D8EF60FD1FD83FFFDF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2541662502FA42E6A46D2727D100EA6C /* Pods-iComeChat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA76896345A9AC7417E816CF614396FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EADC89619A8633A402872161246C60 /* iComeChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1636162227ED9C315F56E3AE402261 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E45A8DDB97B9C4A6A9FCDB3B35113F34 /* Pods-iComeChat_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B7428B0AACA0099919291BF2C099DBB /* iComeChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E62744916D8591CE5C6DAE0BF4F402C /* Build configuration list for PBXNativeTarget "iComeChat" */;
+			buildPhases = (
+				2A9A6FC7069BF8DBCD23325F51E746B5 /* Sources */,
+				ACE35356324823B786F2C4989635F108 /* Frameworks */,
+				BA76896345A9AC7417E816CF614396FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iComeChat;
+			productName = iComeChat;
+			productReference = 7862521AC10C0596DF65D50990812DCB /* iComeChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		811DFE8DA95F8E7FF2489CA515B57F65 /* Pods-iComeChat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF98247C0E383A5F6CB9C69F7DADDBC4 /* Build configuration list for PBXNativeTarget "Pods-iComeChat_Example" */;
+			buildPhases = (
+				0D586991771610A2E6B98835CEED1C64 /* Sources */,
+				A5EC85C33EEF4E3CB3271D30908A899A /* Frameworks */,
+				663133904F9E01D8EF60FD1FD83FFFDF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5049F18CF1D754D6A2E4894A39BCA7B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-iComeChat_Example";
+			productName = "Pods-iComeChat_Example";
+			productReference = 481A3EA596A291C241EB38EE18EAC62B /* Pods_iComeChat_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECFB8FD6813EBD14E90B3FDC2C0DA92C /* Pods-iComeChat_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3AF83AB909352C579C25A839D39F68B /* Build configuration list for PBXNativeTarget "Pods-iComeChat_Tests" */;
+			buildPhases = (
+				5697EEF48D7C005F0BC76D4BAB2A3669 /* Sources */,
+				027902B0DB9E4F0B4074FA5E81884EF3 /* Frameworks */,
+				CF1636162227ED9C315F56E3AE402261 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-iComeChat_Tests";
+			productName = "Pods-iComeChat_Tests";
+			productReference = A8783D50886FF7D5761A30F6EAE9CEA0 /* Pods_iComeChat_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9DE2DC516C08C94DDB76ECE7EAFB2B38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B7428B0AACA0099919291BF2C099DBB /* iComeChat */,
+				811DFE8DA95F8E7FF2489CA515B57F65 /* Pods-iComeChat_Example */,
+				ECFB8FD6813EBD14E90B3FDC2C0DA92C /* Pods-iComeChat_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D586991771610A2E6B98835CEED1C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAF258BBDE7F6BFDB2FCCE28A766E329 /* Pods-iComeChat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A9A6FC7069BF8DBCD23325F51E746B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1C17600D9C368EDBF61648984100A4 /* iComeChat-dummy.m in Sources */,
+				64ABA4AB0D771C3AAEB74A11F55BA057 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5697EEF48D7C005F0BC76D4BAB2A3669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBFD6331FCDBF1490434047EF9D36F1 /* Pods-iComeChat_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5049F18CF1D754D6A2E4894A39BCA7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iComeChat;
+			target = 6B7428B0AACA0099919291BF2C099DBB /* iComeChat */;
+			targetProxy = 5842C88600307A99145361095AA6683A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16EFD452A25C67D243AC9B4C60D3DF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA2699E5375DCB044ED8D60FB7B3D4B /* Pods-iComeChat_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iComeChat_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iComeChat_Example/Pods-iComeChat_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iComeChat_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		814242B0C6CFAC084AC517811A1D8DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35AE590C2FE16E1279797908E13A38A /* Pods-iComeChat_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iComeChat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iComeChat_Tests/Pods-iComeChat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iComeChat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2CD885895EAA795F92CF784FC48803C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAA83675CE973833438851EDECE2D63 /* iComeChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iComeChat/iComeChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iComeChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iComeChat/iComeChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = iComeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6749DE9AF74A066F11CC4BFA4853A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CAA83675CE973833438851EDECE2D63 /* iComeChat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iComeChat/iComeChat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iComeChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iComeChat/iComeChat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iComeChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E16F884C2C1F444FE3ECD098DCE07114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819E95C587B83AA9EB2644CCEF9EDA13 /* Pods-iComeChat_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iComeChat_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iComeChat_Example/Pods-iComeChat_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iComeChat_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F28D67958584F38DC7AC70AB962ECACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9BBED3162A70A6B123AEFFE9A017DF /* Pods-iComeChat_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iComeChat_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-iComeChat_Tests/Pods-iComeChat_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_iComeChat_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E62744916D8591CE5C6DAE0BF4F402C /* Build configuration list for PBXNativeTarget "iComeChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CD885895EAA795F92CF784FC48803C /* Debug */,
+				A6749DE9AF74A066F11CC4BFA4853A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3AF83AB909352C579C25A839D39F68B /* Build configuration list for PBXNativeTarget "Pods-iComeChat_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				814242B0C6CFAC084AC517811A1D8DF3 /* Debug */,
+				F28D67958584F38DC7AC70AB962ECACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF98247C0E383A5F6CB9C69F7DADDBC4 /* Build configuration list for PBXNativeTarget "Pods-iComeChat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E16F884C2C1F444FE3ECD098DCE07114 /* Debug */,
+				16EFD452A25C67D243AC9B4C60D3DF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
